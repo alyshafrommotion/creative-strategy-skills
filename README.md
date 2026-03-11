@@ -1,18 +1,18 @@
 # Creative Strategy Skills
 
-Creative strategy superpowers for AI agents — built by [Motion](https://www.motionapp.com).
+A set of core creative strategy skills for AI agents, built by Alysha from [Motion](https://www.motionapp.com).
 
-Install once, then talk to your AI agent like normal. It’ll brainstorm and refine hooks using proven creative strategy frameworks.
+Install once, then talk to your AI agent like normal. It will conduct a review analysis, brainstorm messaging angles, and refine hooks using proven creative strategy frameworks.
 
 ## What's Inside
 
-This repo currently includes **six creative strategy modules**:
+This repo currently includes **six creative strategy skills**:
 
-| Module | What it does | When to use it |
+| Skill | What it does | When to use it |
 | --- | --- | --- |
 | **hook-writing** | Writes psychologically driven hooks and opening lines for ads and social content | You need hooks, scroll-stoppers, or opening lines tailored to your product, persona, and awareness stage |
-| **hook-tactics** | Reference library of 35+ hook and headline tactic types | You want hooks organized by tactic, or need to choose which tactic to deploy for a given situation |
-| **hook-voice-patterns** | Living swipe file of native hook templates from real content | You want hooks that feel like they belong on the feed, using proven voice and format patterns |
+| **hook-tactics** | Reference library of 35+ hook and headline tactic types | You want a variety of hooks organized by tactic, or need to choose which tactic to deploy for a given situation |
+| **hook-voice-patterns** | Living swipe file of native hook templates inspired by real viral social media content | You want hooks that feel like they belong on the feed, using proven voice and format patterns |
 | **creative-mechanics** | Library of creative mechanics that define how concepts land between hook, visuals, and narrative | You’re designing ad concepts and want structural ideas beyond just hooks and formats |
 | **creative-strategy-engine** | Strategic framework for mapping pain/persona intersections, messaging angles, and awareness stages | You need to organize a brand’s full-funnel creative strategy before executing assets |
 | **review-audit** | Review-mining system that turns positive reviews into pain points, triggers, objections, transformations, and swipeable phrases | You have customer reviews and want VOC insights and ad-ready language pulled from them |
