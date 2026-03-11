@@ -1,20 +1,26 @@
 ---
 name: hook-voice-patterns
-description: A living swipe file of scroll-stopping hook templates collected from the wild — real sentence structures and native voice patterns that have proven they stop the scroll. Use this skill whenever writing hooks, opening lines, or scroll-stoppers, especially when combined with the Hook Writing Skill and Hook Tactics Skill. Trigger any time the user wants hooks that feel native to the feed rather than constructed. These templates are the raw structural DNA of hooks that work — plug in the brand, persona, and pain to execute. Always pair with Hook Writing Skill for psychological trigger execution and Hook Tactics Skill for tactic classification.
+description: A living swipe file of scroll-stopping hook templates collected from the wild — real sentence structures and native voice patterns that have proven they stop the scroll. Use this whenever writing hooks, opening lines, or scroll-stoppers, especially when combined with hook-writing and hook-tactics. Trigger any time the user wants hooks that feel native to the feed rather than constructed. These templates are the raw structural DNA of hooks that work — plug in the brand, persona, and pain to execute.
 ---
 
-# Hook Voice Patterns Skill
+# Hook Voice Patterns
 
 This is a **living swipe file** — a library of hook templates collected from real scroll-stopping content in the wild. These are not invented frameworks. They are structural patterns that already proved they work on an actual human feed.
 
-**How to use this skill:**
-- Pull templates that match the tactic or trigger you're executing
-- Fill in the `[bracketed variables]` with product, persona, pain, or brand-specific language
-- Use the Hook Writing Skill for psychological trigger execution once the structure is selected
-- Use the Hook Tactics Skill to identify which tactic each template maps to
+**How to use this:**
 
-**How to keep this skill updated:**
-> Alysha adds new patterns by pasting them into any conversation and saying "add these to my hook voice patterns skill." Each new pattern gets tagged with its tactic and trigger mapping and added to the appropriate cluster.
+This is a mid-execution resource. hook-writing drives the process — reach for patterns here when a hook has the right psychological trigger but sounds constructed rather than native to the feed.
+
+- hook-writing is running. You have your trigger, your persona, your awareness stage.
+- A hook draft feels like an ad — the structure is correct but the sentence doesn't sound like a person.
+- Pull a template from this library that matches the tactic or emotional register you're executing.
+- Fill in the `[bracketed variables]` with product, persona, or pain-specific language.
+- The pattern provides the surface-level container. The psychological trigger still lives inside it.
+
+This module is a **living collection**, not a complete taxonomy. It will never cover every pattern that exists — and that's fine. When in doubt, write the hook from Hook Writing principles alone.
+
+**How to keep this updated:**
+> Alysha adds new patterns by pasting them into any conversation and saying "add these to my hook voice patterns." Each new pattern gets tagged with its tactic and trigger mapping and added to the appropriate cluster.
 
 ---
 

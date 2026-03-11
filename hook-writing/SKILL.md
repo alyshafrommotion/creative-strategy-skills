@@ -1,11 +1,11 @@
 ---
 name: hook-writing
-description: "Writes high-converting, psychologically-driven hooks for paid ads, TikTok, Instagram Reels, and organic content. Use this skill whenever a user wants to write hooks, opening lines, scroll-stoppers, or attention-grabbing openers for ads or social content. Trigger for any request involving \"write me hooks,\" \"give me hooks for,\" \"I need hooks for my ad,\" \"TikTok hooks,\" \"hook ideas,\" or any variation of wanting compelling opening lines for advertising or social content. Also use when a user provides a product, persona, messaging angle, or awareness stage and wants tactical hook execution — especially when used downstream from the Creative Strategy Engine skill."
+description: Writes high-converting, psychologically-driven hooks for paid ads, TikTok, Instagram Reels, and organic content. Use this whenever a user wants to write hooks, opening lines, scroll-stoppers, or attention-grabbing openers for ads or social content. Trigger for any request involving "write me hooks," "give me hooks for," "I need hooks for my ad," "TikTok hooks," "hook ideas," or any variation of wanting compelling opening lines for advertising or social content. Also use when a user provides a product, persona, messaging angle, or awareness stage and wants tactical hook execution — especially when used downstream from the Creative Strategy Engine.
 ---
 
-# Hook Writing Skill
+# Hook Writing
 
-This skill writes **psychologically-driven hooks** that stop the scroll, trigger an emotional response, and pull people into the creative.
+This resource writes **psychologically-driven hooks** that stop the scroll, trigger an emotional response, and pull people into the creative.
 
 A hook's only job is to make someone stop and watch (or read). It does this by triggering a psychological or emotional response in the first 1–3 seconds. Boring hooks lose the viewer instantly. Great hooks feel like the content was made specifically for them.
 
@@ -32,7 +32,7 @@ The awareness stage determines your hook's strategy. Get this wrong and the hook
 
 | Stage | Who They Are | Hook Strategy |
 |-------|-------------|---------------|
-| **Unaware** | Doesn't know they have a problem | Introduce the pain/desire through relatable situation or unexpected observation. No product mention. |
+| **Unaware** | Doesn't know they have a problem | Introduce the pain/desire through a relatable situation or unexpected observation. No product mention. |
 | **Problem-Aware** | Knows the problem, hasn't found a solution | Agitate the pain hard. Make them feel deeply understood. Build urgency. |
 | **Solution-Aware** | Knows solutions exist, comparing options | Differentiate. Position against alternatives. Call out what's failed them before. |
 | **Product-Aware** | Knows your product, hasn't bought | Remove objections. Trigger FOMO. Social proof. Counter the reason they haven't bought. |
@@ -96,7 +96,7 @@ Make inaction feel costly. Heighten the stakes of not changing.
 
 ## Hook Formats
 
-### Video Hooks (TikTok, Reels)
+### Video Hooks (TikTok, Reels, YouTube)
 - **Spoken hook** — First words out of their mouth. Should work even without visuals.
 - **Visual hook** — The first frame or action that stops the scroll (described for the creator)
 - **Text overlay hook** — On-screen text that appears over the visual
@@ -104,8 +104,10 @@ Make inaction feel costly. Heighten the stakes of not changing.
 
 When writing video hooks, write **all three** unless specified otherwise. Label them clearly.
 
-### Text Hooks (Static Ads, Headlines)
+### Text Hooks (Static Ads, Captions, Headlines)
+- **Primary text hook** — First line of ad copy
 - **Headline** — Overlay text on static image
+- **Caption hook** — First line of caption (before "more")
 
 ---
 
@@ -117,7 +119,7 @@ When writing video hooks, write **all three** unless specified otherwise. Label 
 - Mirror the exact language your persona actually uses
 - Lead with the pain/desire, not the product
 - Make it feel like it was written for ONE specific person
-- If it sounds like an ad, rewrite it
+- Read it out loud — if it sounds like an ad, rewrite it
 - Vary the psychological trigger across your hook set
 
 **DON'T:**
@@ -132,43 +134,36 @@ When writing video hooks, write **all three** unless specified otherwise. Label 
 
 ## Output Format
 
-### Default: Hook Set
+**Follow the user's requested format first.** If they ask for a numbered list, a table, hooks by awareness stage, hooks for a specific video format — match that. Don't impose structure on top of a request that already has one.
 
-When writing multiple hooks, output as a numbered set organized by psychological trigger:
+Tactics and voice patterns are used silently during execution. Do not label hooks with tactic names, trigger types, or pattern references in the output unless the user explicitly asks for that breakdown.
+
+### Default: Hook Set (when no format is specified)
+
+When writing multiple hooks with no format instruction, output as a clean numbered list:
 
 ```
 HOOKS FOR: [Product] | [Persona] | [Awareness Stage]
 MESSAGING ANGLE: [The core truth you're expressing]
 
----
-
-PATTERN INTERRUPT
 1. [Hook]
 2. [Hook]
-
-PAIN AGITATION
 3. [Hook]
-4. [Hook]
-
-IDENTITY CALL-OUT
-5. [Hook]
-6. [Hook]
-
 [etc.]
 ```
 
-### Video Format Output
+### Video Format Output (when video hooks are requested)
 
 ```
-HOOK #1 — [Trigger Type]
+HOOK #1
 
 SPOKEN: "[First words said on camera]"
 VISUAL: [What happens in the first frame — action, scene, visual element]
 TEXT OVERLAY: "[On-screen text]"
 ```
 
-### Why This Hook Works (Optional)
-When writing hooks for educational purposes or when the user wants to learn, add a 1-sentence breakdown of the trigger being used and why it works for this specific audience.
+### Breakdown (only when explicitly requested)
+If the user asks to understand why a hook works, add a 1-sentence explanation of the psychological trigger and why it lands for this specific audience. Never add this unprompted.
 
 ---
 
@@ -206,18 +201,31 @@ They're ready. Be direct. Create urgency. Make the offer feel obvious.
 
 ---
 
-## Integration with Hook Tactics Skill and Hook Voice Patterns Skill
+## Optional Reference: Hook Tactics
 
-A separate **Hook Tactics Skill** is available as a reference library of tactic types (e.g. Aspirational, Contrarian, Urgency, Listicle, Myth Busting — 35+ total).
+A **hook-tactics** module exists as a non-exhaustive reference library of named tactic types (e.g. Aspirational, Contrarian, Urgency, Listicle), which is useful but not required.
 
 **Tactics are the frame. Psychological triggers are the mechanism inside the frame.**
 
-- When a user asks for hooks by tactic type (e.g. "give me 3 Contrarian hooks"), reference the Hook Tactics Skill for the definition and strategic intent of that tactic, then use this skill to execute the writing.
-- When a user asks for hooks across all tactics, pull the full taxonomy from the Hook Tactics Skill and write against each one.
-- When no tactic is specified, default to organizing output by psychological trigger (this skill), not tactic type.
-- A single hook can express one tactic through multiple psychological triggers — e.g. a Contrarian hook can use a Pattern Interrupt trigger or a Pain Agitation trigger depending on execution.
+Pull hook-tactics when:
+- The user asks for hooks organized by tactic type (e.g. "give me 3 Contrarian hooks") — use it to confirm the tactic's definition and strategic intent before writing.
+- You want to expand range across a large hook set and need a named taxonomy to work from.
+- You're unsure which frame fits the persona/awareness stage and want a structured way to evaluate options.
 
-Use the **Hook Voice Patterns Skill** when the user wants hooks that feel especially native to the feed or explicitly asks for patterns, templates, or “hooks that sound like TikTok/IG.” Pull structural templates from the voice patterns library that match the desired trigger and tactic, then use this skill to fill in product, persona, and pain-specific language.
+Don't feel obligated to cover the full tactic list. Default to organizing output by psychological trigger (this module) unless a tactic is explicitly requested or would meaningfully improve the output.
+
+A single hook can express one tactic through multiple psychological triggers — e.g. a Contrarian hook can run on Pattern Interrupt or Pain Agitation depending on execution.
+
+## Optional Reference: Hook Voice Patterns
+
+A **hook-voice-patterns** module exists as a living swipe file of native sentence structures collected from real content on social feeds. It is even lighter-touch than hook-tactics — inspiration, not instruction.
+
+Pull hook-voice-patterns when:
+- A hook feels constructed rather than native — the structure is right but it sounds like an ad.
+- You want a specific sentence-level register (confession energy, cultural commentary, casual drop) and none of the examples here are hitting that tone.
+- The user asks for hooks that feel organic or platform-native specifically.
+
+Don't default to it. Most hooks can be written well from this module alone. Voice patterns are a mid-execution tool — reach for one if a hook needs a more natural container, not as a required starting point.
 
 ---
 
@@ -243,6 +251,6 @@ Use the messaging angle as the **emotional core** of every hook. All hooks shoul
 | Build intrigue and curiosity | Curiosity Gap |
 | Build credibility fast | Social Proof |
 | Challenge a belief they hold | Contrarian |
-| Show them what's possible | Aspiration |
+| Show what's possible | Aspiration |
 | Make inaction feel costly | Urgency/Stakes |
 

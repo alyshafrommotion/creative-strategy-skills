@@ -1,15 +1,15 @@
 ---
 name: hook-tactics
-description: Reference library of 35+ hook and headline tactic types. Use this skill when a user asks for hooks organized by tactic, wants to know which tactic to use for a given situation, or requests hooks "by tactic type." This skill defines what each tactic is and when to deploy it. Always pair with the Hook Writing Skill for execution — tactics define the frame, psychological triggers are the mechanism inside the frame.
+description: Reference library of 35+ hook and headline tactic types. Use this when a user asks for hooks organized by tactic, wants to know which tactic to use for a given situation, or requests hooks "by tactic type." This defines what each tactic is and when to deploy it. Always pair with hook-writing for execution — tactics define the frame, psychological triggers are the mechanism inside the frame.
 ---
 
-# Hook Tactics Skill
+# Hook Tactics
 
-This skill is a strategic reference library. It answers two questions:
+This module is a strategic reference library. It answers two questions:
 1. **What is this tactic?** (definition + example)
 2. **When should I use it?** (deployment guidance)
 
-For *how to write* the hook once the tactic is selected, refer to the **Hook Writing Skill**.
+For *how to write* the hook once the tactic is selected, refer to **hook-writing**.
 
 ---
 
@@ -480,19 +480,4 @@ When writing hooks by tactic, choose the psychological trigger that best execute
 | Create time or supply pressure | Urgency |
 | Stop a default behavior | Warning |
 
----
-
-## Output Format When Writing by Tactic
-
-When the user requests hooks by tactic, organize output by tactic name with the psychological trigger noted:
-
-```
-[TACTIC NAME]
-Trigger: [Psychological trigger used]
-1. [Hook]
-2. [Hook]
-3. [Hook]
-```
-
-If writing across the full tactic library, group into logical clusters (Identity & Audience, Credibility & Proof, Emotion & Desire, Format & Structure, Action & Conversion) to keep output navigable.
 
