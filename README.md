@@ -6,7 +6,7 @@ Install once, then talk to your AI agent like normal. The skills will enable you
 
 ## What's Inside
 
-This repo currently includes **seven creative strategy skills**:
+This repo currently includes **eight creative strategy skills**:
 
 | Skill | What it does | When to use it |
 | --- | --- | --- |
@@ -17,6 +17,7 @@ This repo currently includes **seven creative strategy skills**:
 | **hook-tactics** | Reference library of 35+ hook and headline tactic types | You want a broad variety of hooks to test against each other, or that leverage unique mechanisms that create psychological tension for the viewer |
 | **hook-voice-patterns** | Swipe file of native hook templates curated by Alysha from real viral social media content | You want hooks that feel native to the feed — like something a real person would post, not an ad |
 | **creative-mechanics** | Library of structural ad concepts curated by Alysha from real viral social media content | You have an idea, a pain point, or a hook and you want to develop it into a full ad concept with a visual structure |
+| **visual-formats** | Reference library of 45+ visual ad formats for Meta and paid social (video/static, funnel fit, mechanic pairing) | You're choosing how an ad should look and feel, what format to execute, or which production structure best serves the concept |
 
 ## Getting Started
 
@@ -56,6 +57,10 @@ Here are some prompts to try:
 
 > "I have a hook and a pain point. Help me turn it into a full ad concept with a clear visual structure."
 
+**Choose a visual format:**
+
+> "What format should this be?" or "Give me format options for this concept."
+
 **Map your creative strategy:**
 
 > "Map my creative strategy for a women's health supplement brand."
@@ -76,7 +81,8 @@ The stack works best as a creative workflow:
 2. **Use review-audit** — mine reviews to deeply understand your customers: their pains, what finally made them buy, what almost stopped them, and the exact language they use to describe their use case and their transformation.
 3. **Use creative-strategy-engine** — define pain/desire buckets, personas, and messaging angles informed by what you found in the reviews (and by the brand context from brand-intake).
 4. **Develop concepts with creative-mechanics** — choose a structural approach for how each ad will communicate its message visually.
-5. **Write hooks with hook-writing** — turn your messaging angles and concepts into opening lines tailored to each awareness stage.
-6. **Refine with hook-tactics and hook-voice-patterns** — broaden your hook range or sharpen the native feel of the language.
+5. **Choose format with visual-formats** — pick the production structure (video/static, format type) that best delivers the concept.
+6. **Write hooks with hook-writing** — turn your messaging angles and concepts into opening lines tailored to each awareness stage.
+7. **Refine with hook-tactics and hook-voice-patterns** — broaden your hook range or sharpen the native feel of the language.
 
 You can do all of this in a single conversation. Keep building on what the agent gives you.
